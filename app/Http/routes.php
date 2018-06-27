@@ -24,7 +24,7 @@ $app->get('/hello', function () {
 $app->get('/assignment/{id}', 'App\Http\Controllers\assignmentController@getAllAssignment');
 $app->get('/users','App\Http\Controllers\assignmentController@assignmentDatas');
 
-//$app->get('/data/{id}','App\Http\Controllers\assignmentController@assignmentDatas');
+
 $app->get('/data/{id}', 'App\Http\Controllers\assignmentController@assignmentvalue');
 
 
