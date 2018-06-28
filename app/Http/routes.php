@@ -19,7 +19,7 @@ $app->get('/hello', function () {
     return 'Hello World';
 });
 
-//get all user defined  App\Http\Controllers\HomeController@index
+//get all user defined  (App\Http\Controllers\HomeController@index)
 
 $app->get('/assignment/{id}', 'App\Http\Controllers\assignmentController@getAllAssignment');
 $app->get('/users','App\Http\Controllers\assignmentController@assignmentDatas');
